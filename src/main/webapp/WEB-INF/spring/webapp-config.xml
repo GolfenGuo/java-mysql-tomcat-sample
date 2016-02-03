@@ -29,7 +29,7 @@
     </bean>
 
     <bean id="nameDirectoryServiceFactory" class="daocloud.dbconnect.service.NameDirectoryServiceFactory" factory-method="createFactory">
-        <property name="driverClassName" value="${database_driverClassName}"/>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
     </bean>
 
     <bean id="nameDirectoryService" factory-bean="nameDirectoryServiceFactory" factory-method="createService"/>
