@@ -19,4 +19,4 @@ before_script:
     - echo "Here, we usually run scripts to prepare our test"
 
 script:
-  - mvn test
+  - echo "mvn test"
